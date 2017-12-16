@@ -1,3 +1,15 @@
+.contact {
+  min-height: 350px;
+}
+.contact-left {
+  background-image: url("../images/Lawrence3.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.contact-right {
+  background-color: white;
+}
 
 body {
   background-color: #f1f1f1;
@@ -20,7 +32,7 @@ footer {
 /* Jumbotron / page header  */
 .jumbotron {
   margin-top: 25px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,.5);
 }
 
 
@@ -30,7 +42,7 @@ footer {
 
 .heading {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 50%;
   padding: 0px;
 }
@@ -38,7 +50,9 @@ footer {
 .centered {
   position: relative;
   left: -50%;
-  border: dotted red 1px;
+  border: solid #f1f1f1 1px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,.85);
 }
 /* End - Jumbotron / page header  */
 
@@ -55,7 +69,7 @@ footer {
 /* ---------------- Voronoi Tessellation --------------- */
 
 .voronoi-tessellation {
-  min-height: 500px;
+  min-height: 550px;
 }
 
 .links {
@@ -65,8 +79,8 @@ footer {
 
 .polygons {
   fill: none;
-  stroke: #000;
-  stroke-opacity: 0.15;
+  stroke: #cecece;
+  stroke-opacity: 0.25;
 }
 
 .polygons :first-child {
