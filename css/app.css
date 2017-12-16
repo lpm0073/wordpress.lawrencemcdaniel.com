@@ -28,6 +28,13 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  color: orange;
+  font-family: 'Roboto Condensed';
+  font-weight: 600;
+  font-size: .75em;
+}
+
 h4 {
   font-weight: 700;
 }
@@ -49,6 +56,9 @@ footer a:hover {
   font-size: 1.025em;
 }
 
+.bg-light {
+  background-color: white !important;
+}
 
 /* Jumbotron / page header  */
 .jumbotron {
@@ -117,6 +127,18 @@ footer a:hover {
 /* End - Features Section  */
 
 /* Plans Section  */
+.plans-wordpress-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.plans-wordpress-logo img {
+  width: 250px;
+}
+
 .hosting-plan {
   min-height: 500px !important;
 }
