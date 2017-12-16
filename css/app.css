@@ -1,3 +1,6 @@
+.hosting-plan {
+  min-height: 500px !important;
+}
 
 .box-shadow:hover {
   box-shadow: 0 2px 5px 1px #cfcfcf;
