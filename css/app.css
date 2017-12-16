@@ -1,6 +1,3 @@
-.hosting-plan {
-  min-height: 500px !important;
-}
 
 .orange-background {
   background-color: rgba(255,165,0, .10);
@@ -27,6 +24,12 @@ h2 {
   font-family: 'Roboto Condensed';
   margin-top: 25px;
   margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-weight: 700;
 }
 
 footer {
@@ -58,6 +61,14 @@ footer a:hover {
   position: relative;
 }
 
+.wordpress-logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.05;
+  overflow: hidden;
+}
+
 .heading {
   position: absolute;
   top: 20%;
@@ -74,12 +85,83 @@ footer a:hover {
 }
 /* End - Jumbotron / page header  */
 
+/* Services section */
+.card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+/* Premium Services Section  */
+.premium-service {
+  min-height: 350px !important;
+}
+
+.premium-service-icon {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.premium-service-icon-centered {
+  position: relative;
+  left: -50%;
+}
+/* End - Premium Services Section  */
 
 /* Features Section  */
 .card {
-  min-height: 300px;
+  min-height: 225px;
 }
 /* End - Features Section  */
+
+/* Plans Section  */
+.hosting-plan {
+  min-height: 500px !important;
+}
+.hosting-plan-logo-box {
+  background-color: #f9f9f9;
+}
+
+.hosting-plan-logo-opaque {
+  opacity: 0.25;
+}
+
+.hosting-plan-wordpress-logo {
+  width: 65%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.hosting-plan-aws-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35%;
+}
+
+.hosting-plan-aws-logo {
+  position: absolute;
+  top: 15%;
+  right: 15px;
+  width: 35%;
+  transform: rotate(45deg);
+}
+
+.hosting-plan-google-logo {
+  position: absolute;
+  top: 15%;
+  left: 15px;
+  width: 35%;
+  transform: rotate(-45deg);
+}
+
+.hosting-plan-card-text {
+  min-height: 100px;
+}
+
+/* End - Plans Section  */
 
 
 /* Contact Section  */
@@ -137,6 +219,7 @@ footer a:hover {
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-lg { font-size: 250px; }
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
@@ -148,4 +231,9 @@ footer a:hover {
 
 .material-icons.md-orange {
   color: orange;
+}
+
+
+.material-icons.md-orange-light {
+  color: rgba(255,165,0, .075);
 }
