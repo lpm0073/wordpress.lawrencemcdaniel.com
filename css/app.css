@@ -1,6 +1,6 @@
 
-.orange-background {
-  background-color: rgba(255,165,0, .10);
+.blue-background {
+  background-color: rgba(64, 115, 147, .10);  /* Wordpress blue */
   width: 100%;
 }
 
@@ -13,14 +13,14 @@
 /* ---------------- General App Setting -----------------------------*/
 body {
   background-color: #f1f1f1;
-  color: #555;
+  color: #464646;     /* Wordpress gray */
 }
 
 h1 {
   font-weight: 700;
 }
 h2 {
-  color: orange;
+  color: #407393;  /* Wordpress blue */
   font-family: 'Roboto Condensed';
   margin-top: 25px;
   margin-bottom: 25px;
@@ -48,11 +48,11 @@ footer {
 }
 
 footer a {
-  color: orange;
+  color: #407393;  /* Wordpress blue */
 }
 
 footer a:hover {
-  color: orange;
+  color: #407393;  /* Wordpress blue */
   font-size: 1.025em;
 }
 
@@ -211,7 +211,7 @@ footer a:hover {
 }
 
 .links {
-  stroke: orange;
+  stroke: #407393;      /* Wordpress blude */
   stroke-opacity: 0.2;
 }
 
@@ -253,13 +253,13 @@ footer a:hover {
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-.material-icons.md-orange {
-  color: orange;
+.material-icons.md-blue {
+  color: #407393;  /* Wordpress blue */
 }
 
 
-.material-icons.md-orange-light {
-  color: rgba(255,165,0, .075);
+.material-icons.md-blue-light {
+  color: rgba(64, 115, 147, .075);    /* Wordpress blue */
 }
 
 /*-------------------- RESPONSIVE DESIGN ------------------------------*/
