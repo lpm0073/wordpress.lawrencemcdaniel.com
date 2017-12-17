@@ -1,15 +1,3 @@
-
-.blue-background {
-  background-color: rgba(64, 115, 147, .10);  /* Wordpress blue */
-  width: 100%;
-}
-
-.box-shadow:hover {
-  box-shadow: 0 2px 5px 1px #cfcfcf;
-  border: 1px solid #efefef;
-}
-
-
 /* ---------------- General App Setting -----------------------------*/
 body {
   background-color: #f1f1f1;
@@ -64,9 +52,29 @@ footer a:hover {
 .bg-light {
   background-color: white !important;
 }
+
+.blue-background {
+  background-color: rgba(64, 115, 147, .10);  /* Wordpress blue */
+  width: 100%;
+}
+
+.box-shadow:hover {
+  box-shadow: 0 2px 5px 1px #cfcfcf;
+  border: 1px solid #efefef;
+}
+
+
+
 /* ---------------- End - General App Setting -----------------------------*/
 
 /* Jumbotron / page header  */
+.home-jumbotron {
+  border-width: 5px;
+  border-radius: 12px;
+  border-color: rgba(64, 115, 147, 1);  /* Wordpress blue */
+  border-style: solid;
+}
+
 .jumbotron {
   margin-top: 15px;
   background-color: rgba(255,255,255,.5);
