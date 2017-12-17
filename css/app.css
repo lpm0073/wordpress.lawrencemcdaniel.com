@@ -8,12 +8,8 @@ h1 {
   font-weight: 700;
 }
 h2 {
-  color: #407393;  /* Wordpress blue */
-  font-family: 'Roboto Condensed';
   margin-top: 25px;
   margin-bottom: 25px;
-  font-weight: 600;
-  font-size: 2.5em;
 }
 
 h3 {
@@ -150,6 +146,9 @@ footer a:hover {
 .plans-title {
   margin-top: -20px;
   font-weight: 500;
+  color: #407393;  /* Wordpress blue */
+  font-family: 'Roboto Condensed';
+  font-size: 2.5em;
 }
 .plans-wordpress-logo {
   margin-left: auto;
