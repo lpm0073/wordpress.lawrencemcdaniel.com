@@ -7,8 +7,7 @@ var svg = d3.select("svg").on("touchmove mousemove", moved),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-    console.log("width: ", width);
-    console.log("height: ", height);
+    console.log("Custom HTML5 / CSS3 / JS by Lawrence McDaniel: https://lawrencemcdaniel.com | lpm0073@gmail.com");
 
 var sites = d3.range(100)
     .map(function(d) { return [Math.random() * width, Math.random() * height]; });
