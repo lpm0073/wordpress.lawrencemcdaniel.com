@@ -303,15 +303,12 @@ footer a:hover {
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
+/*@media (min-width: 768px) and (max-width: 991px) */
+@media (max-width: 991px) {
   h1 {
     font-weight: 500;
   }
+
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -323,11 +320,16 @@ footer a:hover {
     font-size: .50em;
   }
 
+  .jumbotron {
+    background-color: #f1f1f1;
+    margin-top: 0;
+  }
+
   .home-jumbotron {
     border: none !important;
   }
 
-    #voronoi-tessellation {
+  #voronoi-tessellation {
     visibility: hidden;
     height: 0;
   }
@@ -335,12 +337,6 @@ footer a:hover {
   .box-shadow:hover {
     box-shadow: none !important;
     border: none !important;
-  }
-
-
-  .jumbotron {
-    background-color: #f1f1f1;
-    margin-top: 0;
   }
 
   .heading {
@@ -359,4 +355,9 @@ footer a:hover {
     margin-right: auto;
     margin-bottom: 25px;
   }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
 }
