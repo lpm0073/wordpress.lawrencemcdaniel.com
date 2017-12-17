@@ -56,6 +56,11 @@ footer a:hover {
   font-size: 1.025em;
 }
 
+.btn-primary {
+  background-color: #407393;  /* Wordpress blue */
+  border-color: #407393;  /* Wordpress blue */
+}
+
 .bg-light {
   background-color: white !important;
 }
