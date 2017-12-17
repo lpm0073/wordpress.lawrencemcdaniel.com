@@ -322,6 +322,11 @@ footer a:hover {
     font-weight: 500;
     font-size: .50em;
   }
+
+  .home-jumbotron {
+    border: none !important;
+  }
+
     #voronoi-tessellation {
     visibility: hidden;
     height: 0;
