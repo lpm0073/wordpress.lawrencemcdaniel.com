@@ -1,3 +1,4 @@
+// https://lawrencemcdaniel.com Copyright 20198 Lawrence McDaniel.
 var mySVG = document.getElementById("voronoi-tessellation");
     mySVG.setAttribute("width",  mySVG.parentElement.clientWidth);
     mySVG.setAttribute("height", mySVG.parentElement.clientHeight);
