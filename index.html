@@ -40,7 +40,7 @@
     </script>
     <script>
     function gtag_report_conversion(url) {
-      console.log('gtag_report_conversion() called');
+      console.log('gtag_report_conversion() called for url: ', url, typeof(url));
       var callback = function () {
         if (typeof(url) != 'undefined') {
           window.location = url;
