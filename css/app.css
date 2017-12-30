@@ -223,6 +223,14 @@ footer a:hover {
   background-size: cover;
 }
 
+.contact-left2 {
+  background-image: url("../images/Lawrence4.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+}
+
+
 .contact-right {
   background-color: white;
 }
