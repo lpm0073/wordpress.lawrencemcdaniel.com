@@ -230,6 +230,10 @@ footer a:hover {
   background-size: cover;
 }
 
+.contact-linkedin-profile {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .contact-right {
   background-color: white;
