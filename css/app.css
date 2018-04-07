@@ -1,3 +1,52 @@
+.logo-box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 160px;
+  margin-bottom: 25px;
+}
+
+#logo-360lending {
+  background-image: url("../images/logo-360lending.png");
+}
+#logo-agility360 {
+  background-image: url("../images/logo-agility360.png");
+}
+#logo-bonanza {
+  background-image: url("../images/logo-bonanza.png");
+}
+#logo-buffalos {
+  background-image: url("../images/logo-buffalos.png");
+}
+#logo-dd {
+  background-image: url("../images/logo-dd.png");
+}
+#logo-edmex {
+  background-image: url("../images/logo-edmex.png");
+}
+#logo-fatbrands {
+  background-image: url("../images/logo-fatbrands.png");
+}
+#logo-fatburger {
+  background-image: url("../images/logo-fatburger.png");
+}
+#logo-fpaa {
+  background-image: url("../images/logo-fpaa.png");
+}
+#logo-fundx {
+  background-image: url("../images/logo-fundx.png");
+}
+#logo-igc {
+  background-image: url("../images/logo-igc.png");
+}
+#logo-lare {
+  background-image: url("../images/logo-lare.png");
+}
+#logo-mightywizards {
+  background-image: url("../images/logo-mightywizards.png");
+}
+
+
+
 /* ---------------- General App Setting -----------------------------*/
 body {
   background-color: #f1f1f1;
