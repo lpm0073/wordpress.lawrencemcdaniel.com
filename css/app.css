@@ -5,6 +5,19 @@
   margin-bottom: 25px;
 }
 
+#logo-atentamente {
+  background-image: url("../images/logo-atentamente.png");
+}
+#logo-cursos {
+  background-image: url("../images/logo-cursos.png");
+}
+#logo-sep {
+  background-image: url("../images/logo-sep.png");
+}
+#logo-tierra {
+  background-image: url("../images/logo-tierra.png");
+}
+
 #logo-360lending {
   background-image: url("../images/logo-360lending.png");
 }
