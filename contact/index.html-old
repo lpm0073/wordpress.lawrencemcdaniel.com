@@ -67,10 +67,14 @@
 
       <section id="contact">
         <div class="row contact jumbotron p-4 box-shadow" style="background-color: white;">
-          <div class="col-sm-12 col-md-12 contact-right">
+          <div class="col-sm-12 col-md-4 contact-linkedin-profile text-center">
+            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="lawrencemcdaniel">
+              <a class="LI-simple-link" href='https://mx.linkedin.com/in/lawrencemcdaniel?trk=profile-badge' target="_blank">Lawrence McDaniel</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8 contact-right float-right">
             <h2 class="text-center"><strong>Presales</strong></h2>
-            <p class="text-center">We launch in September, 2018. In the meantime let's talk about your <strong>Wordpress Hosting</strong> needs.</p>
-            <div class="text-center"><img src="../images/minions.gif"></div>
+            <p class="">We're still in beta. We launch in September, 2018. I look forward to learning how I can help you. Please call me directly or send me a message with a brief description of your <strong>Wordpress Hosting</strong> needs and I will respond to you promptly.</p>
 
             <table class="table table-condensed" style="width: 50%; margin: auto; margin-top: 25px; margin-bottom: 25px;">
               <tbody>
@@ -92,6 +96,8 @@
                 </tr>
               </tbody>
             </table>
+            <hr />
+            <p class="font-italic text-center"><small>* I respond to email in four hours or less during normal business hours.</small></p>
           </div>
         </div>  <!-- row -->
       </section>
